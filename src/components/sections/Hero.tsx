@@ -9,7 +9,7 @@ const WORDS = ['builder', 'designer', 'engineer', 'tinkerer']
 export function Hero() {
   return (
     <section
-      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-background"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background"
       aria-label="Introduction"
     >
       {/* Animated grid background */}
@@ -29,7 +29,7 @@ export function Hero() {
       <FloatingOrbs />
 
       {/* Content */}
-      <div className="relative z-10 max-w-6xl mx-auto px-6 pt-20 pb-12 flex flex-col items-center text-center">
+      <div className="relative z-10 w-full max-w-6xl mx-auto px-6 flex flex-col items-center text-center pt-20 pb-12">
         {/* Status badge */}
         <motion.div
           initial={{ opacity: 0, y: 12 }}
