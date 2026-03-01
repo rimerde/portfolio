@@ -49,14 +49,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://rishitsingh.dev',
+    url: 'https://rishitsingh.vercel.app',
     title: 'Rishit Singh - Portfolio',
     description:
       'CS sophomore at the University of Cincinnati building things that feel like they actually matter — at the intersection of hardware, software, and human-centered design.',
     siteName: 'Rishit Singh Portfolio',
     images: [
       {
-        url: '/og-image.png',
+        url: 'https://rishitsingh.vercel.app/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Rishit Singh — Portfolio',
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    images: ['/og-image.png'],
+    images: ['https://rishitsingh.vercel.app/og-image.png'],
   },
   robots: {
     index: true,
